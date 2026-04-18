@@ -19,7 +19,7 @@
 
 | 🏠 Home Page | 🔐 Auth |
 |---|---|
-| ![Home](https://resume-craft-steel.vercel.app) | Sign up / Login with JWT |
+| ![Home](Screenshots/Homepage.png) | Sign up / Login with JWT |
 
 | ✏️ Builder | 📁 Saved Resumes |
 |---|---|
