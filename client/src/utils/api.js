@@ -1,7 +1,10 @@
 import axios from 'axios';
 
+const isLocalhost = window.location.hostname === 'localhost';
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:5000',
+  baseURL: isLocalhost 
+    ? 'http://localhost:5000' 
+    : (import.meta.env.VITE_API_URL || 'https://resume-craft-0j6o.onrender.com'),
 });
 
 // Automatically add token to headers if it exists in local storage
