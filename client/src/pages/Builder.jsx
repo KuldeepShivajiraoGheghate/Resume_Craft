@@ -11,7 +11,7 @@ import CustomSectionForm from '../components/form/CustomSectionForm';
 import ResumePreview from '../components/preview/ResumePreview';
 import { downloadPDF } from '../utils/downloadPDF';
 import { Save, Download } from 'lucide-react';
-import axios from 'axios';
+import api from '../utils/api';
 
 const SECTIONS = [
   { id: 'profile', label: 'Profile' },
@@ -41,7 +41,7 @@ export default function Builder() {
   const handleSave = async () => {
     setSaving(true);
     try {
-      const res = await axios.post('http://localhost:5000/api/resumes', resumeData);
+      const res = await api.post('/api/resumes', resumeData);
       setSavedId(res.data._id);
       alert('Resume saved successfully!');
     } catch (err) {
