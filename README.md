@@ -17,13 +17,13 @@
 
 ## 🖼️ Screenshots
 
-| 🏠 Home Page | 🔐 Auth |
+| 🏠 Homepage | 🔐 Auth |
 |---|---|
-| ![Home](Screenshots/Homepage.png) | Sign up / Login with JWT |
+| ![Homepage](Screenshots/Homepage.png) | ![Sign Up](Screenshots/Sign%20up.png) |
 
-| ✏️ Builder | 📁 Saved Resumes |
+| ✏️ Builder | 📁 Saved |
 |---|---|
-| Live form + instant A4 preview | Load, download, or delete your saved resumes |
+| ![Builder](Screenshots/Builder.png) | ![Saved](Screenshots/Saved%20Resumes.png) |
 
 ---
 
